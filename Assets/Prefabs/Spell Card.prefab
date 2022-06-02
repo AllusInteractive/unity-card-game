@@ -912,8 +912,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8490811870545070765}
-  - component: {fileID: 7973699437435263225}
   - component: {fileID: 1252118260241311213}
+  - component: {fileID: 7973699437435263225}
+  - component: {fileID: 4153194207974258856}
   m_Layer: 0
   m_Name: Spell Card
   m_TagString: Untagged
@@ -937,6 +938,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1252118260241311213
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8490811870545070764}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.75, y: 2.66, z: 0.01}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7973699437435263225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -953,19 +967,32 @@ MonoBehaviour:
   CardBack: {fileID: 8490811870645347662}
   targetFacePoint: {fileID: 7357454288504780114}
   col: {fileID: 1252118260241311213}
---- !u!65 &1252118260241311213
-BoxCollider:
+--- !u!114 &4153194207974258856
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8490811870545070764}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.75, y: 2.66, z: 0.01}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d24c70f37971646bac722b56e3d63f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardAsset: {fileID: 11400000, guid: de064d7f3a089174d824890fa69e2db9, type: 2}
+  PreviewManager: {fileID: 0}
+  NameText: {fileID: 8490811868897807703}
+  ManaCostText: {fileID: 8490811870686431207}
+  DescriptionText: {fileID: 8490811870146249422}
+  HealthText: {fileID: 0}
+  AttackText: {fileID: 0}
+  HealthIcon: {fileID: 0}
+  AttackIcon: {fileID: 0}
+  CardGraphicImage: {fileID: 8490811869162288247}
+  CardBodyImage: {fileID: 8490811868857443352}
+  CardFaceFrameImage: {fileID: 8490811869403519066}
+  CardFaceGlowImage: {fileID: 0}
+  CardBackGlowImage: {fileID: 0}
 --- !u!1 &8490811870645347661
 GameObject:
   m_ObjectHideFlags: 0
