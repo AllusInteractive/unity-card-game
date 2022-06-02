@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-public static class ScriptableObjectUtility2 {
+public static class ScriptableObjectUtility {
 	
 	/// <summary>
 	/// Create new asset from <see cref="ScriptableObject"/> type with unique name at
