@@ -16,7 +16,6 @@ public enum TargetingOptions
 public class CardAsset : ScriptableObject 
 {
     [Header("General info")]
-    public CharacterAsset characterAsset;
     [TextArea(2,3)]
     public string Description;
 	public Sprite CardImage;
