@@ -1181,15 +1181,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d24c70f37971646bac722b56e3d63f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardAsset: {fileID: 11400000, guid: de064d7f3a089174d824890fa69e2db9, type: 2}
+  cardAsset: {fileID: 11400000, guid: 38e7a479ba08c3242a580765ca28c984, type: 2}
   PreviewManager: {fileID: 0}
   NameText: {fileID: 6833078780954144130}
   ManaCostText: {fileID: 6833078781670565682}
   DescriptionText: {fileID: 6833078782210351643}
-  HealthText: {fileID: 0}
-  AttackText: {fileID: 0}
-  HealthIcon: {fileID: 0}
-  AttackIcon: {fileID: 0}
+  HealthText: {fileID: 224484499423712335}
+  AttackText: {fileID: 9096194796490085731}
   CardGraphicImage: {fileID: 6833078780152665250}
   CardBodyImage: {fileID: 6833078780882306253}
   CardFaceFrameImage: {fileID: 6833078780385523855}
@@ -1483,8 +1481,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A giant creature of immense strength. They pulverise their enemies with
-    a giant club
+  m_Text: A giant creature of immense strength, wielding it's club with ferocious
+    power
 --- !u!1 &7386989705569607220
 GameObject:
   m_ObjectHideFlags: 0
