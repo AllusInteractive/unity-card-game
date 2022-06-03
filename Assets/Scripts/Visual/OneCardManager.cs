@@ -13,9 +13,6 @@ public class OneCardManager : MonoBehaviour {
     public Text DescriptionText;
     public Text HealthText;
     public Text AttackText;
-    [Header ("GameObject References")]
-    public GameObject HealthIcon;
-    public GameObject AttackIcon;
     [Header("Image References")]
     public Image CardGraphicImage;
     public Image CardBodyImage;
