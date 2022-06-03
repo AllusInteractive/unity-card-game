@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbf4f360ee234fc43a62a3e001eeebc5, type: 3}
+  m_Name: Cyclops
+  m_EditorClassIdentifier: 
+  Description: A giant creature of immense strength, wielding it's club with ferocious
+    power
+  CardImage: {fileID: 21300000, guid: 9a75d5fcb2aaa1548aade776cf03262b, type: 3}
+  ManaCost: 7
+  MaxHealth: 4
+  Attack: 6
+  AttacksForOneTurn: 1
+  Taunt: 0
+  Charge: 0
+  CreatureScriptName: 
+  specialCreatureAmount: 0
+  SpellScriptName: 
+  specialSpellAmount: 0
+  Targets: 0
